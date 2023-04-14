@@ -11,10 +11,10 @@ This is a simple application that I am using to learn about the various levels o
 * [mongoose-encryption](https://www.npmjs.com/package/mongoose-encryption)
 
 
-### Level 1
+## Level 1
 
 Started with level 1, which is just a simple login page, that uses a local db to store the login username and password (mongoDB).
 
-### Level 2
+## Level 2
 
 Moved on to level 2 which included some database security through the use of some encryption. I used mongoose-encryption to encrypt the password field in the database. This stored the password in a hashformat that is much more difficult to crack.
