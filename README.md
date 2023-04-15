@@ -11,6 +11,7 @@ This is a simple application that I am using to learn about the various levels o
 * [mongoose-encryption](https://www.npmjs.com/package/mongoose-encryption)
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [md5](https://www.npmjs.com/package/md5)
+* [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 
 ## Level 1
@@ -28,5 +29,10 @@ Also used md5 to hash the password before storing it in the database.  This is a
 
 ## Level 4
 
-Here I learned about using Salt in addition to md5 to hash the password.  This is a much more secure way to store passwords.  The salt is a random string that is added to the password before it is hashed.  This makes it much more difficult to crack the password.  The salt is stored in the database along with the hashed password.  This is a much more secure way to store passwords.
+Here I learned about using Salt in addition to hashing the password.  This is a much more secure way to store passwords.  The salt is a random string that is added to the password before it is hashed.  This makes it much more difficult to crack the password.  The salt is stored in the database along with the hashed password.  This is a much more secure way to store passwords. Here I used the bcrypt package to hash the password and store the salt in the database.
+
+## Level 5
+Cookies and Sessions:
+
+Here I learned about cookies and sessions.  I used the express-session package to create a session for the user.  This session is stored in the browser.  The session is used to keep the user logged in.  The session is also used to store the user's secret.  The secret is only available to the user that is logged in.  This is a much more secure way to store sensitive information.
 
