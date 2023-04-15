@@ -22,6 +22,10 @@ The site contains login ability using a local database, and also using Google OA
 * [passport](https://www.npmjs.com/package/passport)
 * [passport-local-mongoose](https://www.npmjs.com/package/passport-local-mongoose)
 * [passport-google-oauth20](https://www.npmjs.com/package/passport-google-oauth20)
+* [EJS](https://ejs.co/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google OAuth](https://developers.google.com/identity/protocols/oauth2)
+
 
 
 ## Level 1
