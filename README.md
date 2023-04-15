@@ -6,8 +6,6 @@ This is a simplified version of the "Whisper" app that allows a user to login an
 
 The site contains login ability using a local database, and also using Google OAuth.  The site also contains a level of security that allows the user to post a secret that is only visible to the user that posted it.  This is done by using cookies and sessions to store the user's secret.  The secret is only available to the user that is logged in.
 
-I am using the following technologies.
-
 ## Tech Used:
 
 * [Node.js](https://nodejs.org/en/)
