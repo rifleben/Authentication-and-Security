@@ -36,3 +36,7 @@ Cookies and Sessions:
 
 Here I learned about cookies and sessions.  I used the express-session package to create a session for the user.  This session is stored in the browser.  The session is used to keep the user logged in.  The session is also used to store the user's secret.  The secret is only available to the user that is logged in.  This is a much more secure way to store sensitive information.
 
+## Level 6
+OAuth:
+
+Here I learned about OAuth.  I used the passport package to implement OAuth.  I used the passport-local-mongoose package to simplify the process of using passport with mongoDB.  I used the passport-google-oauth20 package to implement OAuth with Google.  This is a much more secure way to store sensitive information, and also allows the user to login with a third party service (Google in this case). The benefit of using a third party service is that the user does not have to remember a password, and the third party service is much more secure than storing the user's password in the database as Google has a lot more security resources to secure that user's password.
