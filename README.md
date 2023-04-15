@@ -1,6 +1,12 @@
 # Authentication and Security
 
-This is a simple application that I am using to learn about the various levels of authentication and security in a web application.  I am using the following technologies (so far):
+This is a simple application that I am using to learn about the various levels of authentication and security in a web application.  
+
+This is a simplified version of the "Whisper" app that allows a user to login and post a secret to a public page (without sharing any personal information).  The user can also view all the secrets that have been posted by other users.
+
+The site contains login ability using a local database, and also using Google OAuth.  The site also contains a level of security that allows the user to post a secret that is only visible to the user that posted it.  This is done by using cookies and sessions to store the user's secret.  The secret is only available to the user that is logged in.
+
+I am using the following technologies.
 
 ## Tech Used:
 
@@ -12,6 +18,10 @@ This is a simple application that I am using to learn about the various levels o
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [md5](https://www.npmjs.com/package/md5)
 * [bcrypt](https://www.npmjs.com/package/bcrypt)
+* [express-session](https://www.npmjs.com/package/express-session)
+* [passport](https://www.npmjs.com/package/passport)
+* [passport-local-mongoose](https://www.npmjs.com/package/passport-local-mongoose)
+* [passport-google-oauth20](https://www.npmjs.com/package/passport-google-oauth20)
 
 
 ## Level 1
